@@ -1,0 +1,23 @@
+{
+  "name": "mikael.ts/easyoutcome",
+  "authors": [
+    {
+      "name": "Mikael Titinovskii",
+      "email": "mikael.ts@alyce.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "mnapoli/silly": "^1.7",
+    "lesstif/php-jira-rest-client": "^2.2",
+    "ext-json": "*",
+    "jclg/php-slack-bot": "^0.0.7",
+    "mdwheele/fortune": "dev-master",
+    "catfan/medoo": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/"
+    }
+  }
+}
